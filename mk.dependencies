@@ -1,5 +1,9 @@
 [
     {
+        "repository": "android_vendor_samsung_i925",
+        "target_path": "vendor/samsung/i925"
+    },
+    {
         "repository": "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common"
     },

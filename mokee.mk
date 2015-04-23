@@ -1,15 +1,15 @@
 # Release name
 PRODUCT_RELEASE_NAME := i925
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i925/full_i925.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i925
-PRODUCT_NAME := cm_i925
+PRODUCT_NAME := mk_i925
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SCH-I925
 PRODUCT_MANUFACTURER := samsung
